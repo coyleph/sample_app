@@ -4,6 +4,11 @@ ruby '2.1.1'
 
 gem 'rails'
 
+gem 'bootstrap-sass'
+#may have to add specific sprockets version
+#for compatability issues
+
+
 group :development, :test do
 	gem 'sqlite3'
 	gem 'rspec-rails'
