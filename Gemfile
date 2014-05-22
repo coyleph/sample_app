@@ -7,6 +7,7 @@ gem 'rails'
 gem 'bootstrap-sass'
 #may have to add specific sprockets version
 #for compatability issues
+gem 'bcrypt'
 
 
 group :development, :test do
